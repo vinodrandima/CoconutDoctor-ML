@@ -1,0 +1,84 @@
+{
+    "model_file": "best_coconut_doctor_model.keras",
+    "total_test_samples": 697,
+    "test_accuracy": 0.994261,
+    "macro_avg": {
+        "precision": 0.997,
+        "recall": 0.9962,
+        "f1_score": 0.9966
+    },
+    "weighted_avg": {
+        "precision": 0.9943,
+        "recall": 0.9943,
+        "f1_score": 0.9943
+    },
+    "per_class_metrics": {
+        "BudRot": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "support": 60
+        },
+        "GreyLeafSpot": {
+            "precision": 0.9852,
+            "recall": 1.0,
+            "f1_score": 0.9926,
+            "support": 267
+        },
+        "LeafRot": {
+            "precision": 1.0,
+            "recall": 0.981,
+            "f1_score": 0.9904,
+            "support": 210
+        },
+        "StemBleeding": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "support": 127
+        },
+        "Healthy": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "support": 33
+        }
+    },
+    "confusion_matrix": [
+        [
+            60,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            267,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            4,
+            206,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            127,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            33
+        ]
+    ]
+}
