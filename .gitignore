@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Large image datasets (use setup_dummy_data.py or organize_dataset.py)
+dataset/
+raw/
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# OS & Editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Temporary artifacts
+test_q.mlpackage/
+*.h5

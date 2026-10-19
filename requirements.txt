@@ -1,0 +1,8 @@
+# Core ML and Deep Learning dependencies for CoconutDoctor
+tensorflow==2.15.0
+coremltools==7.2
+numpy>=1.23.5,<2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pillow>=10.0.0
